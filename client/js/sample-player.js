@@ -18,7 +18,7 @@ let spectrum, energy, size;
 document.addEventListener('keydown', (event) => {
   const keyName = event.key;
   var username = localStorage.getItem('username');
-  if (username && username.length > 2) {
+  if (username && username.length > 1) {
     $(".alert").html("");
     if (online == true) {
       switch (keyName) {
@@ -60,7 +60,7 @@ document.addEventListener('keydown', (event) => {
     }
   }
   else {
-    $(".alert").html("Palun kirjuta oma nimi");
+    $(".alert").html("Name length should be atleast 3 characters!");
   }
 });
 
@@ -71,11 +71,11 @@ const keys = document.querySelectorAll(".key");
 keys.forEach((key, idx) => {
   key.addEventListener('click', () => {
     var username = localStorage.getItem('username');
-    if (username && username.length > 2) {
+    if (username && username.length > 1) {
       $(".alert").html("");
       socket.emit("send-data", { "sample": idx, "username": localStorage.getItem('username') });
     } else {
-      $(".alert").html("Palun kirjuta oma nimi");
+      $(".alert").html("Please type your name");
     }
   });
 });
@@ -101,37 +101,6 @@ function preloadSampleFiles() {
     sounds[i] = loadSound("./samples/" + files[i]);
   }
 }
-
-
-/*
-function setup() {
-  createCanvas(windowWidth, windowHeight*0.8)
-  
-  // https://p5js.org/reference/#/p5.FFT
-  fft = new p5.FFT();
-  fft.smooth();
-
-  preloadSampleFiles();
-}
-
-
-
-// visualization
-function draw() {
-  blendMode(BLEND);
-  background(10,5,20);
-  blendMode(LIGHTEST);
-  noFill();
-
-  spectrum = fft.analyze(); 
-  energy = fft.getEnergy(100, 255);
-  size = map(energy, 0, 255, energy*0.2, windowHeight*0.8);
-
-  stroke('hsla(0, 80%, 100%, 0.5)');
-  strokeWeight(size*0.05);
-  circle(windowWidth*0.5, windowHeight*0.4, size);
-}
-*/
 
 // helper functions
 // allows browser to play sounds

@@ -1,26 +1,48 @@
 .welcome {
-  padding-bottom: 3vh;
+  padding: 5vh;
+  margin-bottom: 20vh;
+  color: #ffffff;
 }
 .nameinput {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .namemsg {
-  font-size: large;
-  padding-bottom: 20px;
+  color: #ffffff;
+  font-size: 2em;
+  padding: 3vh;
 }
-#name {
-  height: 50px;
-  width: 200px;
+#username {
+  width: 300px;
   line-height: 50px;
-  font-size:24px;
-  background-color: gray ;
-  color: whitesmoke;
+  font-size:2em;
+  background-color: #080808 ;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   text-align: center;
 }
+#submitBTN {
+  margin-top:7vh;
+  padding: 10px 10px;
+  border-radius: 8px;
+  background-color: #f1453f80;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+}
+#submitBTN:hover {
+  background-color: #ec5c57;
+  cursor: pointer;
+}
 .alert {
-  color: red;
+  padding-top: 1vh;
+  font-size: 1.5em ;
+  color: #f1453f;
 }
 .hidden { 
   display: none;

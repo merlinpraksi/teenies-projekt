@@ -1,5 +1,6 @@
 @import "/css/buttons.css";
 @import "/css/main.css";
+
 html {
     box-sizing: border-box;
 }
@@ -13,4 +14,6 @@ html, body {
 body {
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #080808;
 }
