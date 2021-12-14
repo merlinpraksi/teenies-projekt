@@ -7,10 +7,11 @@ Luua muusikainstrument
 
 ### Projekti kirjeldus
 
-Luua kolm vaadet kliendile, kus 
-### Kommunikatsioon
+- Luua kliendi vaade, kus on esitletud muusikainstrument ning klient saab mängida lugu "White Christmas", mis on jaotatud ridadeks (1 nupu vajutus = rida).
 
-Suhtluskanalid: **Microsoft Teams**.
+- Luua serveri poolne lahendus
+
+- Luua Arduino konfiguratsioon 
 
 ### Meeskond
 
@@ -29,3 +30,29 @@ Suhtluskanalid: **Microsoft Teams**.
 - Marcus
 - Kevin
 - Kristjan
+
+
+## Töö käik
+
+### Kommunikatsioon
+
+Suhtluskanalid: **Microsoft Teams**.
+
+### Ülesanded
+**1.päev**
+- Meeskonnaga tutvumine
+- Suhtluskanalite loomine
+- Lähteülesande selgitamine
+- Olemasoleva koodi analüüs
+- Disainilahenduse alustamine
+- Seadistamine
+
+**2.päev**
+- Disainilahenduse loomine
+- Toote ehitamine
+
+**3.päev**
+- Toote ehitamine
+- Esitluse viimistlemine
+
+## Projekt
