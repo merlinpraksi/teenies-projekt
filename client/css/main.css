@@ -1,0 +1,27 @@
+.welcome {
+  padding-bottom: 3vh;
+}
+.nameinput {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.namemsg {
+  font-size: large;
+  padding-bottom: 20px;
+}
+#name {
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  font-size:24px;
+  background-color: gray ;
+  color: whitesmoke;
+  text-align: center;
+}
+.alert {
+  color: red;
+}
+.hidden { 
+  display: none;
+}
