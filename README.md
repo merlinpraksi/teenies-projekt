@@ -7,7 +7,7 @@ Luua muusikainstrument
 
 ### Projekti kirjeldus
 
-- Luua kliendi vaade, kus on esitletud muusikainstrument ning klient saab mängida lugu "White Christmas", mis on jaotatud ridadeks (1 nupu vajutus = laulu rida loost "White Christmas").
+- Luua kliendi vaade, kus on esitletud muusikainstrument ning klient saab mängida lugu "White Christmas", mis on jaotatud salmideks (1 nupu vajutus = 1 salm "White Christmas").
 
 - Luua serveri poolne lahendus
 
