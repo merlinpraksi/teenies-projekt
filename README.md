@@ -1,4 +1,4 @@
-# Muusikainstrumendi projekt - White Christmas
+# Muusikainstrumendi projekt
 
 
 ## Projekti eesmärk
