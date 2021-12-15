@@ -59,4 +59,4 @@ Suhtluskanalid: **Microsoft Teams**.
 
 
 ### Idee pilt
-https://i.ibb.co/3C0fVNJ/idee.jpg
+![Idee pilt](https://i.ibb.co/3C0fVNJ/idee.jpg)
