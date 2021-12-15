@@ -58,3 +58,5 @@ Suhtluskanalid: **Microsoft Teams**.
 - Esitluse viimistlemine
 
 
+### Idee pilt
+https://i.ibb.co/3C0fVNJ/idee.jpg
