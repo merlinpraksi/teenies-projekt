@@ -1,0 +1,14 @@
+
+.equalizer {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  float: center;
+}
+
+.equalizer_bar { float: center; }
+
+.equalizer_bar_component {
+  float: center;
+  width: 100%;
+}

@@ -20,11 +20,20 @@ input[type="radio"] {
   width: 700px;
   border-radius: 30px;
 }
-.buttons > span {
+.nrs > span {
   text-shadow: #b4b3b3;
   padding-top: 1vh;
   color: #b4b3b3;
   font-size: 1.5em;
+}
+.nrss {
+  position: flex;
+  flex-direction: row;
+}
+.nrss > span {
+  
+  font-size: 2em;
+  color: #b4b3b3;
 }
 .buttons label {
   justify-content: center;
