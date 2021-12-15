@@ -26,6 +26,8 @@ Luua muusikainstrument
 - Oliver
 
 ### Arduino
+- Sander-Aleks
+- Gendro
 - Janar
 - Marcus
 - Kevin
@@ -55,4 +57,4 @@ Suhtluskanalid: **Microsoft Teams**.
 - Toote ehitamine
 - Esitluse viimistlemine
 
-## Projekt
+
